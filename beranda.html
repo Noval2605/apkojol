@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://drive.google.com/uc?export=download&id=1lvjGp6OC9nDve-3Nk4QAxV6ojk7Gehka"
+    />
+    <script
+      src="https://Noval2605.github.io/apkojol/scriptberanda.js"
+      onload="console.log('JavaScript loaded successfully')"
+      onerror="console.error('Error loading JavaScript')"
+    ></script>
+  </head>
+  <body>
+    <div class="container active">
+      <div class="header"></div>
+      <div class="searchbox">
+        <form
+          id="searchForm"
+          action="https://jgjk.mobi/act/search/"
+          method="GET"
+        >
+          <input
+            type="text"
+            placeholder="kamu lagi cari apa?"
+            class="search-input"
+            id="searchInput"
+          />
+          <img
+            src="https://i.ibb.co.com/C1vPF50/93642.png"
+            class="stikersearch"
+          />
+        </form>
+        <div class="tomboltema">
+          <img src="https://i.ibb.co.com/26KRXwq/fun.png" class="stikertema" />
+        </div>
+      </div>
+      <div class="slider-container">
+        <div class="slider-wrapper">
+          <img src="https://via.placeholder.com/360x160" class="slideratas" />
+          <img src="https://via.placeholder.com/360x160" class="slideratas" />
+          <img src="https://via.placeholder.com/360x160" class="slideratas" />
+        </div>
+      </div>
+      <div class="Group5">
+        <div class="InfoBg"></div>
+        <img
+          class="InfoIconDompet"
+          src="https://i.ibb.co.com/kqSs5Fx/money-bag.png/21x21"
+        />
+        <div class="InfoSaldo">{saldo}</div>
+        <div class="InfoTextSaldo">Saldo</div>
+        <div class="InfoDeskripsi">Saldo anda saat ini</div>
+        <div class="InfoTopup">Top Up</div>
+        <div class="Group3">
+          <div class="Info">+</div>
+          <button
+            class="InfoKotakWd"
+            type="button"
+            onclick="window.location.href='https://jgjk.mobi/act/topup'"
+          ></button>
+        </div>
+        <div class="InfoWithdraw">Withdraw</div>
+        <div class="InfoWd">
+          <div class="InfoMines">-</div>
+          <button
+            class="InfoKotakWd"
+            type="button"
+            onclick="window.location.href='https://jgjk.mobi/act/withdraw'"
+          ></button>
+        </div>
+        <div class="InfoTeksPoin">Poin</div>
+        <div class="InfoPoin">
+          <div class="InfoKotakPoin"></div>
+          <div class="InfoPoinText">{poin}</div>
+        </div>
+        <div class="Frame7">
+          <div class="Ellipse7"></div>
+          <div class="Ellipse10"></div>
+          <div class="Ellipse8"></div>
+          <div class="Ellipse11"></div>
+          <div class="Ellipse9"></div>
+          <div class="Ellipse10"></div>
+        </div>
+      </div>
+      <div class="group6">
+        <div class="menu ojek">
+          <div class="menu-text">OjekYuk</div>
+          <div class="menu-bg"></div>
+          <a href="https://jgjk.mobi/m/6683840d46366"
+            ><img
+              class="menu-sticker"
+              img
+              src="https://i.ibb.co.com/8YwLX5T/vehicle.png/44x44"
+              alt="Ojek"
+          /></a>
+        </div>
+        <div class="menu jajan">
+          <div class="menu-text">JajanYuk</div>
+          <div class="menu-bg"></div>
+          <a href="https://jgjk.mobi/m/66838452d7b90"
+            ><img
+              class="menu-sticker"
+              img
+              src="https://i.ibb.co.com/mSKmDSF/fast-food.png/32x32"
+              alt="Jajan"
+          /></a>
+        </div>
+        <div class="menu suruh">
+          <div class="menu-text">SuruhYuk</div>
+          <div class="menu-bg"></div>
+          <a href="https://jgjk.mobi/m/6683848403049"
+            ><img
+              class="menu-sticker"
+              img
+              src="https://i.ibb.co.com/LRTFsWJ/electrical-worker.png/32x32"
+              alt="Suruh"
+          /></a>
+        </div>
+        <div class="menu antar">
+          <div class="menu-text">AntarYuk</div>
+          <div class="menu-bg"></div>
+          <a href="https://jgjk.mobi/m/668384bf80b59"
+            ><img
+              class="menu-sticker"
+              img
+              src="https://i.ibb.co.com/jwDTJMG/fast-delivery.png/34x34"
+              alt="Antar"
+          /></a>
+        </div>
+      </div>
+      <div class="grup-pilih">
+        <div class="pilih-rekomen" onclick="showRekomendasi()">Rekomendasi</div>
+        <div class="pilih-panduan" onclick="showPanduan()">Panduan</div>
+      </div>
+      <div class="grup-rekomen active">
+        <div class="hi">Hi, {nama}</div>
+        <div class="butuh-apa">
+          Kamu lagi butuh apa? Kami di sini untuk bantu kamu
+        </div>
+        <div class="gambar-bawahbg">
+          <div class="subjudul">hallo</div>
+          <div class="deskripsigambarbawah">selamat datang</div>
+        </div>
+        <img
+          class="gambar-bawah"
+          src="https://i.ibb.co.com/VNVMccT/Frame-8-TEST.png/305x130"
+          alt="Gambar Bawah"
+        />
+        <div class="gambar-bawah2bg">
+          <div class="subjudul">hallo</div>
+          <div class="deskripsigambarbawah">selamat datang</div>
+        </div>
+        <img
+          class="gambar-bawah2"
+          src="https://i.ibb.co.com/VNVMccT/Frame-8-TEST.png/305x130"
+          alt="Gambar Bawah"
+        />
+      </div>
+      <div class="jarakbawah"></div>
+      <div class="video-container">
+        <div class="hivideo">Panduan Menggunakan Aplikasi</div>
+        <div class="butuh-apavideo">
+          Kamu binggung cara memesannya? <br />tenang ada video panduannya ko.
+        </div>
+        <div class="Bgvideo">
+          <iframe
+            src="https://www.youtube.com/embed/iTgoHJfOhL0?si=LtCOv6lMvYQcd37Z"
+            title="YouTube video player"
+          ></iframe>
+          <div class="subjudulvideo">Panduan memesan ojek</div>
+        </div>
+        <div class="Bgvideo">
+          <iframe
+            src="https://www.youtube.com/embed/iTgoHJfOhL0?si=LtCOv6lMvYQcd37Z"
+            title="YouTube video player"
+          ></iframe>
+          <div class="subjudulvideo">Panduan memesan ojek</div>
+        </div>
+        <div class="Bgvideo">
+          <iframe
+            src="https://www.youtube.com/embed/iTgoHJfOhL0?si=LtCOv6lMvYQcd37Z"
+            title="YouTube video player"
+          ></iframe>
+          <div class="subjudulvideo">Panduan memesan ojek</div>
+        </div>
+        <div class="Bgvideo">
+          <iframe
+            src="https://www.youtube.com/embed/iTgoHJfOhL0?si=LtCOv6lMvYQcd37Z"
+            title="YouTube video player"
+          ></iframe>
+          <div class="subjudulvideo">Panduan memesan ojek</div>
+        </div>
+        <div class="Bgvideo">
+          <iframe
+            src="https://www.youtube.com/embed/iTgoHJfOhL0?si=LtCOv6lMvYQcd37Z"
+            title="YouTube video player"
+          ></iframe>
+          <div class="subjudulvideo">Panduan memesan ojek</div>
+        </div>
+        <div class="jarakbawah"></div>
+      </div>
+    </div>
+    <div class="halamanpesanan">
+      <div class="pesanan-container active">
+        <nav>
+          <a onclick="showPesanan1()">Pesanan</a>
+          <a onclick="showKeranjang()">Keranjang</a>
+        </nav>
+        <div class="JudulPesanan">Pesanan</div>
+        <div class="Line2"></div>
+        <a href="https://jgjk.mobi/act/shopping" class="SelengkapnyaPesanan">
+          <div class="PilihBgTerbaru"></div>
+          <div class="PilihText">Selengkapnya</div>
+        </a>
+        <img
+          class="stikerpesanan1"
+          src="https://i.ibb.co.com/ZYphpNG/Take-Away-rafiki.png/249x249"
+        />
+        <div class="Keterangan">
+          Klik selanjutnya untuk melihat orderan yang kamu pesan
+        </div>
+      </div>
+      <div class="keranjang-container">
+        <nav>
+          <a onclick="showPesanan1()">Pesanan</a>
+          <a onclick="showKeranjang()">Keranjang</a>
+        </nav>
+        <div class="JudulPesanan">Pesanan</div>
+
+        <div class="Line2"></div>
+        <a href="https://jgjk.mobi/act/cart" class="SelengkapnyaPesanan">
+          <div class="PilihBgTerbaru"></div>
+          <div class="PilihText">Selengkapnya</div>
+        </a>
+        <img
+          class="stikerpesanan1"
+          src="https://i.ibb.co.com/ynK5Qyq/Shopping-bag-amico.png/249x249"
+        />
+        <div class="Keterangan">
+          Klik selanjutnya untuk melihat Keranjang yang kamu pesan
+        </div>
+      </div>
+    </div>
+
+    <div class="halamanpromo">
+      <div class="JudulPesanan">promo</div>
+      <div class="Line2"></div>
+      <div class="promo-container">
+        <div class="coupon-card">
+          <img src="https://via.placeholder.com/360x160" class="logo" />
+          <h3 class="judulkupon">Dsikon 15% Ongkir</h3>
+          <p class="paragrafkupon">(Minimum. Rp 30.000)</p>
+          <p class="keterangankupon">Ongkir15%</p>
+          <div class="coupon-row">
+            <span id="cpnCode">24353113</span>
+            <span id="cpnBtn">Copy</span>
+          </div>
+          <div class="circle1"></div>
+          <div class="circle2"></div>
+        </div>
+        <div class="coupon-card">
+          <img src="https://via.placeholder.com/360x160" class="logo" />
+          <h3 class="judulkupon">Dsikon 15% Ongkir</h3>
+          <p class="paragrafkupon">(Minimum. Rp 30.000)</p>
+          <p class="keterangankupon">Ongkir15%</p>
+          <div class="coupon-row">
+            <span id="cpnCode">24353113</span>
+            <span id="cpnBtn">Copy</span>
+          </div>
+          <div class="circle1"></div>
+          <div class="circle2"></div>
+        </div>
+        <div class="coupon-card">
+          <img src="https://via.placeholder.com/360x160" class="logo" />
+          <h3 class="judulkupon">Dsikon 15% Ongkir</h3>
+          <p class="paragrafkupon">(Minimum. Rp 30.000)</p>
+          <p class="keterangankupon">Ongkir15%</p>
+          <div class="coupon-row">
+            <span id="cpnCode">24353113</span>
+            <span id="cpnBtn">Copy</span>
+          </div>
+          <div class="circle1"></div>
+          <div class="circle2"></div>
+        </div>
+        <div class="jarakbawah"></div>
+      </div>
+    </div>
+
+    <div class="halamanakun">
+      <div class="JudulPesanan">Profile</div>
+      <div class="Line2"></div>
+      <div class="akun-container active">
+        <div class="Namaakun">{nama}</div>
+        <div class="Akun">Akun</div>
+        <div class="Nomerakun">{hp}</div>
+        <div class="Emailakun">{email}</div>
+        <img src="{foto}" class="Ellipse29" />
+        <div
+          class="Grupmenuakun"
+          onclick="window.location.href='action://act/message_list';"
+        >
+          <div class="Rectangle44"></div>
+          <div class="Ellipse30"></div>
+          <div class="Menuakun">Inbox</div>
+          <div class="Line3"></div>
+          <img
+            class="stikernext"
+            src="https://i.ibb.co.com/XZcfG1Z/next.png/9x9"
+          />
+          <img
+            class="stikermenuakun"
+            src="https://i.ibb.co.com/bRTDKhG/messages-1.png/16x16"
+          />
+        </div>
+        <div class="Grupmenuakun" onclick="showEdit()">
+          <div class="Rectangle44"></div>
+          <div class="Ellipse30"></div>
+          <div class="Menuakun">Edit Profile</div>
+          <div class="Line3"></div>
+          <img
+            class="stikernext"
+            src="https://i.ibb.co.com/XZcfG1Z/next.png/9x9"
+          />
+          <img
+            class="stikermenuakun"
+            src="https://i.ibb.co.com/NY4CXnH/account.png/16x16"
+          />
+        </div>
+        <div
+          class="Grupmenuakun"
+          onclick="window.location.href='action://act/referral';"
+        >
+          <div class="Rectangle44"></div>
+          <div class="Ellipse30"></div>
+          <div class="Menuakun">Share Referral</div>
+          <div class="Line3"></div>
+          <img
+            class="stikernext"
+            src="https://i.ibb.co.com/XZcfG1Z/next.png/9x9"
+          />
+          <img
+            class="stikermenuakun"
+            src="https://i.ibb.co.com/f8sm2F2/share.png/16x16"
+            style="height: 14px; width: 14px; left: 11px; top: 6px"
+          />
+        </div>
+        <div
+          class="Grupmenuakun"
+          onclick="window.location.href='action://act/referral_list';"
+        >
+          <div class="Rectangle44"></div>
+          <div class="Ellipse30"></div>
+          <div class="Menuakun">Jumlah Referral</div>
+          <div class="Line3"></div>
+          <img
+            class="stikernext"
+            src="https://i.ibb.co.com/XZcfG1Z/next.png/9x9"
+          />
+          <img
+            class="stikermenuakun"
+            src="https://i.ibb.co.com/1ZZVryz/network.png/16x16"
+            style="height: 14px; width: 14px; left: 12px; top: 5px"
+          />
+        </div>
+        <div
+          class="Grupmenuakun"
+          onclick="window.location.href='https://jgjk.mobi/act/admin';"
+        >
+          <div class="Rectangle44"></div>
+          <div class="Ellipse30"></div>
+          <div class="Menuakun">Bantuan</div>
+          <div class="Line3"></div>
+          <img
+            class="stikernext"
+            src="https://i.ibb.co.com/XZcfG1Z/next.png/9x9"
+          />
+          <img
+            class="stikermenuakun"
+            src="https://i.ibb.co.com/hKL0psh/support.png/16x16"
+          />
+        </div>
+        <div
+          class="Grupmenuakun"
+          onclick="window.location.href='https://jgjk.mobi/act/partner';"
+        >
+          <div class="Rectangle44"></div>
+          <div class="Ellipse30"></div>
+          <div class="Menuakun">Fitur Mitra</div>
+          <div class="Line3"></div>
+          <img
+            class="stikernext"
+            src="https://i.ibb.co.com/XZcfG1Z/next.png/9x9"
+          />
+          <img
+            class="stikermenuakun"
+            src="https://i.ibb.co.com/KmypFgS/store.png/16x16"
+          />
+        </div>
+        <div
+          class="Grupmenuakun"
+          onclick="window.location.href='https://jgjk.mobi/act/driver';"
+        >
+          <div class="Rectangle44"></div>
+          <div class="Ellipse30"></div>
+          <div class="Menuakun">Fitur Driver</div>
+          <div class="Line3"></div>
+          <img
+            class="stikernext"
+            src="https://i.ibb.co.com/XZcfG1Z/next.png/9x9"
+          />
+          <img
+            class="stikermenuakun"
+            src="https://i.ibb.co.com/QmSN2B0/motorcycle-helmet.png/16x16"
+          />
+        </div>
+        <div
+          class="Grupmenuakun"
+          onclick="window.location.href='https://jgjk.mobi/act/account';"
+        >
+          <div class="Rectangle44"></div>
+          <div class="Ellipse30"></div>
+          <div class="Menuakun">Login</div>
+          <div class="Line3"></div>
+          <img
+            class="stikernext"
+            src="https://i.ibb.co.com/XZcfG1Z/next.png/9x9"
+          />
+          <img
+            class="stikermenuakun"
+            src="https://i.ibb.co.com/6nZKkQh/enter.png/16x16"
+          />
+        </div>
+        <div
+          class="Grupmenuakun"
+          onclick="window.location.href='action://act/logout';"
+        >
+          <div class="Rectangle44"></div>
+          <div class="Ellipse30"></div>
+          <div class="Menuakun">Logout</div>
+          <div class="Line3"></div>
+          <img
+            class="stikernext"
+            src="https://i.ibb.co.com/XZcfG1Z/next.png/9x9"
+          />
+          <img
+            class="stikermenuakun"
+            src="https://i.ibb.co.com/G5vYkFk/logout.png/16x16"
+          />
+        </div>
+      </div>
+      <div class="editprofile-container">
+        <div class="grupjudulakun">
+          <img
+            class="stikerkembali"
+            src="https://i.ibb.co.com/XZcfG1Z/next.png/18x18"
+            onclick="showMenuakun()"
+            ;
+          />
+          <div class="judulakun">Edit Akun</div>
+        </div>
+        <div class="geserbawahedit">
+          <div class="Namaakun">{nama}</div>
+          <div class="Akun">Akun</div>
+          <div class="Nomerakun">{hp}</div>
+          <div class="Emailakun">{email}</div>
+          <div class="Alamatakun">{alamat_lengkap}</div>
+          <img src="{foto}" class="Ellipse29" />
+          <div class="gesersampingedit">
+            <div
+              class="Grupmenuakun"
+              onclick="window.location.href='action://act/profile';"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
